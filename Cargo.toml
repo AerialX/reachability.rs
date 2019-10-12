@@ -1,0 +1,10 @@
+[package]
+name = "reachability"
+version = "0.1.0"
+edition = "2018"
+
+categories = ["no-std", "development-tools::debugging"]
+
+[features]
+static = []
+unstable-internal-test = ["static"]
